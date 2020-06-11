@@ -23,7 +23,6 @@ use client_common::{ErrorKind, Result, ResultExt};
 
 use crate::commands::genesis_dev_config::GenesisDevConfig;
 use client_core::wallet::syncer::compute_genesis_hash;
-
 #[derive(Debug, StructOpt)]
 pub enum GenesisCommand {
     #[structopt(name = "generate", about = "Generate new genesis.json")]
